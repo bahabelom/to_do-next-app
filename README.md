@@ -58,3 +58,48 @@ To get a local copy up and running, follow these simple steps:
    ```
 
 3. **Update an existing TODO item:**
+
+## Technologies Used
+
+- Next.js
+- MongoDB Atlas
+- Node.js
+- Express.js
+- JavaScript
+- HTML
+- CSS
+
+
+## Deployment
+
+To deploy the app, follow these steps:
+
+1. **Create a Vercel account:**
+
+   ```sh
+   npm install -g vercel
+   ```
+
+2. **Install the Vercel CLI:**
+
+   ```sh
+   npm install -g vercel
+   ```
+
+3. **Deploy the app:**
+
+   ```sh
+   vercel deploy
+   ```
+
+## Environment Variables
+
+To deploy the app, you will need to set the following environment variables:
+
+- `MONGODB_URI`: The connection string for your MongoDB Atlas cluster.
+- `MONGODB_DB`: The name of the database you want to use.
+- `MONGODB_COLLECTION`: The name of the collection you want to use.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
